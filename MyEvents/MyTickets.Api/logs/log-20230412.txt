@@ -1,0 +1,46 @@
+2023-04-12 21:25:36.508 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-12 21:25:36.817 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-12 21:25:36.826 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-12 21:25:36.828 +03:00 [INF] Hosting environment: Development
+2023-04-12 21:25:36.829 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-12 21:26:03.972 +03:00 [INF] HTTP GET / responded 404 in 0.1206 ms
+2023-04-12 21:26:03.996 +03:00 [INF] HTTP GET / responded 404 in 48.1123 ms
+2023-04-12 21:26:34.533 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 79.6120 ms
+2023-04-12 21:26:55.829 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 21234.4704 ms
+2023-04-12 21:26:55.835 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 21269.2263 ms
+2023-04-12 21:26:56.270 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0584 ms
+2023-04-12 21:26:56.272 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0479 ms
+2023-04-12 21:26:57.455 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 950.8551 ms
+2023-04-12 21:26:57.459 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 954.9490 ms
+2023-04-12 21:26:57.484 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 19.4321 ms
+2023-04-12 21:26:57.488 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 23.2426 ms
+2023-04-12 21:31:54.976 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0845 ms
+2023-04-12 21:31:54.976 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0874 ms
+2023-04-12 21:31:55.003 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 17.4037 ms
+2023-04-12 21:31:55.007 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 21.3321 ms
+2023-04-12 21:31:55.033 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.9006 ms
+2023-04-12 21:31:55.036 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 8.3093 ms
+2023-04-12 21:47:55.429 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 5.1010 ms
+2023-04-12 21:48:00.593 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0636 ms
+2023-04-12 21:48:14.179 +03:00 [INF] HTTP POST /api/Events/ responded 200 in 13574.6713 ms
+2023-04-12 21:48:14.179 +03:00 [INF] HTTP POST /api/Events/ responded 200 in 18243.0080 ms
+2023-04-12 21:48:14.189 +03:00 [INF] HTTP POST /api/Events/ responded 200 in 13585.8194 ms
+2023-04-12 21:48:14.192 +03:00 [INF] HTTP POST /api/Events/ responded 200 in 18637.4963 ms
+2023-04-12 21:48:14.498 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0441 ms
+2023-04-12 21:48:14.500 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0560 ms
+2023-04-12 21:48:14.605 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 100.5790 ms
+2023-04-12 21:48:14.708 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 204.1791 ms
+2023-04-12 21:48:15.102 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 15.3114 ms
+2023-04-12 21:48:15.117 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 29.5845 ms
+2023-04-12 21:48:28.835 +03:00 [INF] HTTP OPTIONS /api/Events/3cb086dd-7394-4906-4aff-08db3b867205 responded 204 in 0.0692 ms
+2023-04-12 21:48:28.835 +03:00 [INF] HTTP OPTIONS /api/Events/3cb086dd-7394-4906-4aff-08db3b867205 responded 204 in 0.0706 ms
+2023-04-12 21:48:29.322 +03:00 [INF] HTTP GET /api/Events/3cb086dd-7394-4906-4aff-08db3b867205 responded 200 in 448.3786 ms
+2023-04-12 21:48:29.326 +03:00 [INF] HTTP GET /api/Events/3cb086dd-7394-4906-4aff-08db3b867205 responded 200 in 453.1463 ms
+2023-04-12 21:48:29.432 +03:00 [INF] HTTP GET /api/Events/3cb086dd-7394-4906-4aff-08db3b867205 responded 200 in 8.7705 ms
+2023-04-12 21:48:29.435 +03:00 [INF] HTTP GET /api/Events/3cb086dd-7394-4906-4aff-08db3b867205 responded 200 in 11.6428 ms
+2023-04-12 21:49:04.745 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0710 ms
+2023-04-12 21:49:04.756 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 9.4570 ms
+2023-04-12 21:49:04.786 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 6.4561 ms
+2023-04-12 21:49:04.789 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 9.3603 ms
+2023-04-12 21:49:05.756 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 384.0779 ms
+2023-04-12 21:49:05.759 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 386.9510 ms

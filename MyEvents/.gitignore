@@ -1,0 +1,20 @@
+# Visual Studio files
+.vs/
+bin/
+obj/
+
+# Build artifacts
+*.dll
+*.exe
+*.pdb
+*.zip
+*.gz
+*.tar
+*.rar
+
+# NuGet packages
+*.nupkg
+**/node_modules/*
+**/bower_components/*
+**/jspm_packages/*
+**/publish/*

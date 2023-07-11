@@ -1,0 +1,349 @@
+2023-04-04 20:55:35.456 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-04 20:55:36.134 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-04 20:55:36.161 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-04 20:55:36.170 +03:00 [INF] Hosting environment: Development
+2023-04-04 20:55:36.176 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-04 20:56:35.137 +03:00 [INF] HTTP GET / responded 404 in 0.3966 ms
+2023-04-04 20:56:35.161 +03:00 [INF] HTTP GET / responded 404 in 51.3525 ms
+2023-04-04 21:31:04.571 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-04 21:31:04.715 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-04 21:31:04.730 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-04 21:31:04.735 +03:00 [INF] Hosting environment: Development
+2023-04-04 21:31:04.738 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-04 21:31:11.221 +03:00 [INF] HTTP GET / responded 404 in 0.5032 ms
+2023-04-04 21:31:11.256 +03:00 [INF] HTTP GET / responded 404 in 60.5944 ms
+2023-04-04 21:33:40.690 +03:00 [ERR] HTTP POST /api/Events responded 500 in 119840.2506 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 21:33:41.744 +03:00 [ERR] HTTP POST /api/Events responded 500 in 120925.2788 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 22:15:10.036 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-04 22:15:10.584 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-04 22:15:10.601 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-04 22:15:10.605 +03:00 [INF] Hosting environment: Development
+2023-04-04 22:15:10.608 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-04 22:15:15.959 +03:00 [INF] HTTP GET / responded 404 in 0.1638 ms
+2023-04-04 22:15:15.978 +03:00 [INF] HTTP GET / responded 404 in 41.7414 ms
+2023-04-04 22:44:39.983 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 3.5625 ms
+2023-04-04 22:44:40.169 +03:00 [INF] HTTP POST /api/Events responded 401 in 114.8874 ms
+2023-04-04 22:47:24.041 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.0952 ms
+2023-04-04 22:47:37.239 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 13184.9580 ms
+2023-04-04 22:47:37.245 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 13190.9037 ms
+2023-04-04 22:49:04.977 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.1352 ms
+2023-04-04 22:49:04.993 +03:00 [INF] HTTP POST /api/Events responded 401 in 0.8475 ms
+2023-04-04 22:51:48.517 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0723 ms
+2023-04-04 22:51:51.125 +03:00 [ERR] HTTP POST /api/Events responded 500 in 2232.0631 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method138(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 22:51:52.062 +03:00 [ERR] HTTP POST /api/Events responded 500 in 3170.6805 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method138(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 22:55:01.194 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.2469 ms
+2023-04-04 22:55:01.514 +03:00 [ERR] HTTP POST /api/Events responded 500 in 221.1645 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method138(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 22:55:01.539 +03:00 [ERR] HTTP POST /api/Events responded 500 in 246.6099 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method138(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 22:57:43.815 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0642 ms
+2023-04-04 22:57:49.244 +03:00 [ERR] Mailing about event 2906ffb8-d986-40fd-38f4-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 22:57:49.349 +03:00 [INF] HTTP POST /api/Events responded 200 in 5516.0307 ms
+2023-04-04 22:57:49.353 +03:00 [INF] HTTP POST /api/Events responded 200 in 5520.8852 ms
+2023-04-04 22:59:57.115 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 4.7067 ms
+2023-04-04 22:59:57.687 +03:00 [ERR] Mailing about event fe141a39-fc86-46c4-38f5-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 22:59:57.690 +03:00 [INF] HTTP POST /api/Events responded 200 in 536.4868 ms
+2023-04-04 22:59:57.692 +03:00 [INF] HTTP POST /api/Events responded 200 in 538.4000 ms
+2023-04-04 23:00:54.891 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0471 ms
+2023-04-04 23:00:55.140 +03:00 [ERR] Mailing about event db267d6f-8c81-4a2b-38f6-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 23:00:55.143 +03:00 [INF] HTTP POST /api/Events responded 200 in 222.7111 ms
+2023-04-04 23:00:55.146 +03:00 [INF] HTTP POST /api/Events responded 200 in 226.0187 ms
+2023-04-04 23:01:31.180 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.1090 ms
+2023-04-04 23:01:31.414 +03:00 [ERR] Mailing about event 4e80ad45-eaa9-4236-38f7-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 23:01:31.417 +03:00 [INF] HTTP POST /api/Events responded 200 in 223.5253 ms
+2023-04-04 23:01:31.419 +03:00 [INF] HTTP POST /api/Events responded 200 in 225.6233 ms
+2023-04-04 23:07:13.437 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0786 ms
+2023-04-04 23:07:13.790 +03:00 [ERR] Mailing about event 0a4ffc1b-60d4-4cde-38f8-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 23:07:13.793 +03:00 [INF] HTTP POST /api/Events responded 200 in 310.4554 ms
+2023-04-04 23:07:13.796 +03:00 [INF] HTTP POST /api/Events responded 200 in 313.1305 ms
+2023-04-04 23:09:05.620 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.1067 ms
+2023-04-04 23:09:05.769 +03:00 [WRN] Invalid password for user.
+2023-04-04 23:09:05.771 +03:00 [WRN] User failed to provide the correct password.
+2023-04-04 23:09:06.024 +03:00 [ERR] HTTP POST /api/Account/authenticate responded 500 in 381.9784 ms
+System.Exception: Credentials for 'm@m aren't valid'.
+   at MyTickets.Identity.Services.AuthenticationService.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 46
+   at MyTickets.Api.Controllers.AccountController.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 21
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:09:06.848 +03:00 [ERR] HTTP POST /api/Account/authenticate responded 500 in 1205.5931 ms
+System.Exception: Credentials for 'm@m aren't valid'.
+   at MyTickets.Identity.Services.AuthenticationService.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 46
+   at MyTickets.Api.Controllers.AccountController.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 21
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:13:18.517 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0717 ms
+2023-04-04 23:13:18.732 +03:00 [ERR] Mailing about event db9e1ea7-4dde-4b3f-38f9-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 23:13:18.734 +03:00 [INF] HTTP POST /api/Events responded 200 in 186.4690 ms
+2023-04-04 23:13:18.737 +03:00 [INF] HTTP POST /api/Events responded 200 in 189.1963 ms
+2023-04-04 23:14:36.162 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.1018 ms
+2023-04-04 23:14:36.305 +03:00 [WRN] Invalid password for user.
+2023-04-04 23:14:36.307 +03:00 [WRN] User failed to provide the correct password.
+2023-04-04 23:14:36.412 +03:00 [ERR] HTTP POST /api/Account/authenticate responded 500 in 219.1569 ms
+System.Exception: Credentials for 'm@m aren't valid'.
+   at MyTickets.Identity.Services.AuthenticationService.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 46
+   at MyTickets.Api.Controllers.AccountController.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 21
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:14:36.427 +03:00 [ERR] HTTP POST /api/Account/authenticate responded 500 in 234.8547 ms
+System.Exception: Credentials for 'm@m aren't valid'.
+   at MyTickets.Identity.Services.AuthenticationService.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 46
+   at MyTickets.Api.Controllers.AccountController.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 21
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:14:57.380 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.1221 ms
+2023-04-04 23:14:57.484 +03:00 [WRN] Invalid password for user.
+2023-04-04 23:14:57.486 +03:00 [WRN] User failed to provide the correct password.
+2023-04-04 23:14:57.595 +03:00 [ERR] HTTP POST /api/Account/authenticate responded 500 in 178.5448 ms
+System.Exception: Credentials for 'm@m aren't valid'.
+   at MyTickets.Identity.Services.AuthenticationService.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 46
+   at MyTickets.Api.Controllers.AccountController.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 21
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:14:57.611 +03:00 [ERR] HTTP POST /api/Account/authenticate responded 500 in 195.3769 ms
+System.Exception: Credentials for 'm@m aren't valid'.
+   at MyTickets.Identity.Services.AuthenticationService.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 46
+   at MyTickets.Api.Controllers.AccountController.AuthenticateAsync(AuthenticationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 21
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:16:24.019 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0456 ms
+2023-04-04 23:16:24.145 +03:00 [ERR] HTTP POST /api/Events responded 500 in 102.4956 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method138(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:16:24.163 +03:00 [ERR] HTTP POST /api/Events responded 500 in 120.3472 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 46
+   at lambda_method138(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-04 23:29:32.466 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0575 ms
+2023-04-04 23:29:32.990 +03:00 [ERR] Mailing about event 9a8812cb-289d-4e80-38fa-08db3546daec failed due to an error with the mail service: No such host is known. (api.sendgrid.com:443)
+2023-04-04 23:29:32.992 +03:00 [INF] HTTP POST /api/Events responded 200 in 506.4611 ms
+2023-04-04 23:29:33.002 +03:00 [INF] HTTP POST /api/Events responded 200 in 516.5143 ms
+2023-04-04 23:29:59.712 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.2259 ms
+2023-04-04 23:29:59.943 +03:00 [INF] HTTP POST /api/Events responded 400 in 194.5531 ms
+2023-04-04 23:29:59.955 +03:00 [INF] HTTP POST /api/Events responded 400 in 207.6481 ms
+2023-04-04 23:31:02.544 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 4.7527 ms
+2023-04-04 23:31:02.570 +03:00 [INF] HTTP POST /api/Events responded 400 in 3.6061 ms
+2023-04-04 23:31:02.573 +03:00 [INF] HTTP POST /api/Events responded 400 in 7.2630 ms
+2023-04-04 23:40:36.711 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-04 23:40:36.752 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-04 23:40:36.758 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-04 23:40:36.761 +03:00 [INF] Hosting environment: Development
+2023-04-04 23:40:36.763 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-04 23:40:39.792 +03:00 [INF] HTTP GET / responded 404 in 0.1645 ms
+2023-04-04 23:40:39.804 +03:00 [INF] HTTP GET / responded 404 in 22.3965 ms
+2023-04-04 23:54:09.589 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 48.9711 ms
+2023-04-04 23:54:09.589 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 53.7021 ms
+2023-04-04 23:54:09.932 +03:00 [INF] HTTP GET /api/Events responded 401 in 252.4913 ms
+2023-04-04 23:54:11.643 +03:00 [INF] HTTP GET /api/Events responded 401 in 2.7768 ms
+2023-04-04 23:55:34.427 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.1223 ms
+2023-04-04 23:55:34.437 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0357 ms
+2023-04-04 23:55:34.457 +03:00 [INF] HTTP GET /api/Events responded 401 in 0.8709 ms
+2023-04-04 23:55:36.500 +03:00 [INF] HTTP GET /api/Events responded 401 in 0.7717 ms
+2023-04-04 23:57:07.328 +03:00 [INF] HTTP GET /api/Events responded 401 in 0.1783 ms
+2023-04-04 23:58:11.172 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.1741 ms
+2023-04-04 23:58:36.014 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.4298 ms
+2023-04-04 23:58:36.044 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0500 ms
+2023-04-04 23:58:36.048 +03:00 [INF] HTTP GET /api/Events responded 401 in 0.3370 ms
+2023-04-04 23:58:38.095 +03:00 [INF] HTTP GET /api/Events responded 401 in 0.4761 ms
+2023-04-04 23:59:44.131 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0399 ms
+2023-04-04 23:59:44.131 +03:00 [INF] HTTP OPTIONS /api/Events responded 204 in 0.0480 ms
+2023-04-04 23:59:44.157 +03:00 [INF] HTTP GET /api/Events responded 401 in 0.3665 ms
+2023-04-04 23:59:46.189 +03:00 [INF] HTTP GET /api/Events responded 401 in 1.6851 ms
+2023-04-04 23:59:51.541 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.0960 ms

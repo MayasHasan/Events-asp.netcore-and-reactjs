@@ -1,0 +1,23 @@
+2023-06-16 13:52:29.012 +03:00 [INF] Now listening on: https://localhost:7220
+2023-06-16 13:52:29.170 +03:00 [INF] Now listening on: http://localhost:5245
+2023-06-16 13:52:29.175 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 13:52:29.176 +03:00 [INF] Hosting environment: Development
+2023-06-16 13:52:29.178 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-06-16 13:52:57.202 +03:00 [INF] HTTP GET / responded 404 in 0.1476 ms
+2023-06-16 13:52:57.251 +03:00 [INF] HTTP GET / responded 404 in 60.6307 ms
+2023-06-16 13:56:19.951 +03:00 [INF] Now listening on: https://localhost:7220
+2023-06-16 13:56:19.985 +03:00 [INF] Now listening on: http://localhost:5245
+2023-06-16 13:56:19.990 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 13:56:19.991 +03:00 [INF] Hosting environment: Development
+2023-06-16 13:56:19.993 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-06-16 13:56:20.983 +03:00 [INF] HTTP GET / responded 404 in 0.2712 ms
+2023-06-16 13:56:20.989 +03:00 [INF] HTTP GET / responded 404 in 13.3174 ms
+2023-06-16 13:59:41.913 +03:00 [INF] Now listening on: https://localhost:7220
+2023-06-16 13:59:41.942 +03:00 [INF] Now listening on: http://localhost:5245
+2023-06-16 13:59:41.947 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-16 13:59:41.948 +03:00 [INF] Hosting environment: Development
+2023-06-16 13:59:41.949 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-06-16 13:59:42.787 +03:00 [INF] HTTP GET / responded 404 in 0.1225 ms
+2023-06-16 13:59:42.793 +03:00 [INF] HTTP GET / responded 404 in 10.5306 ms
+2023-06-16 14:00:05.575 +03:00 [INF] HTTP GET / responded 404 in 0.0398 ms
+2023-06-16 14:00:05.580 +03:00 [INF] HTTP GET / responded 404 in 6.9080 ms

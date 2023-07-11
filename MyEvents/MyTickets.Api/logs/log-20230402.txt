@@ -1,0 +1,10 @@
+2023-04-02 00:06:25.399 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-02 00:06:25.580 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-02 00:06:25.596 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-02 00:06:25.600 +03:00 [INF] Hosting environment: Development
+2023-04-02 00:06:25.604 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-02 00:06:30.845 +03:00 [INF] HTTP GET / responded 404 in 0.1802 ms
+2023-04-02 00:06:30.856 +03:00 [INF] HTTP GET / responded 404 in 18.8711 ms
+2023-04-02 00:07:14.335 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 11.4619 ms
+2023-04-02 00:07:23.215 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 8861.2510 ms
+2023-04-02 00:07:23.220 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 8867.8252 ms

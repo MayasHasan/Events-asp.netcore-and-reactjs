@@ -1,0 +1,253 @@
+2023-03-10 00:54:17.479 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 00:54:17.527 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 00:54:17.532 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 00:54:17.534 +02:00 [INF] Hosting environment: Development
+2023-03-10 00:54:17.534 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 00:54:24.851 +02:00 [INF] HTTP GET / responded 404 in 0.0868 ms
+2023-03-10 00:54:24.868 +02:00 [INF] HTTP GET / responded 404 in 19.9894 ms
+2023-03-10 00:54:31.988 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0040 ms
+2023-03-10 00:54:31.990 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 2.1016 ms
+2023-03-10 00:55:39.993 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 00:55:40.028 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 00:55:40.034 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 00:55:40.035 +02:00 [INF] Hosting environment: Development
+2023-03-10 00:55:40.036 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 00:55:41.883 +02:00 [INF] HTTP GET / responded 404 in 0.1326 ms
+2023-03-10 00:55:41.895 +02:00 [INF] HTTP GET / responded 404 in 16.1754 ms
+2023-03-10 16:52:12.338 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 16:52:12.519 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 16:52:12.524 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 16:52:12.525 +02:00 [INF] Hosting environment: Development
+2023-03-10 16:52:12.526 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 16:52:26.344 +02:00 [INF] HTTP GET / responded 404 in 0.1047 ms
+2023-03-10 16:52:26.361 +02:00 [INF] HTTP GET / responded 404 in 20.7196 ms
+2023-03-10 16:53:59.557 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0052 ms
+2023-03-10 16:53:59.560 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 3.1862 ms
+2023-03-10 16:57:45.743 +02:00 [INF] HTTP POST /api/Category responded 200 in 199747.9112 ms
+2023-03-10 16:57:45.745 +02:00 [INF] HTTP POST /api/Category responded 200 in 199764.9311 ms
+2023-03-10 17:10:48.717 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 17:10:48.753 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 17:10:48.758 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 17:10:48.759 +02:00 [INF] Hosting environment: Development
+2023-03-10 17:10:48.760 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 17:10:49.798 +02:00 [INF] HTTP GET / responded 404 in 0.1491 ms
+2023-03-10 17:10:49.806 +02:00 [INF] HTTP GET / responded 404 in 13.4763 ms
+2023-03-10 17:11:32.930 +02:00 [ERR] HTTP POST /api/Events responded 500 in 1393.0272 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 45
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-10 17:11:33.388 +02:00 [ERR] HTTP POST /api/Events responded 500 in 1851.6347 ms
+MyTickets.Application.Exceptions.ValidationException: Exception of type 'MyTickets.Application.Exceptions.ValidationException' was thrown.
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 39
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 45
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-10 17:11:56.683 +02:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (DbType = Guid), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = DateTime2), @p6='?' (Size = 4000), @p7='?' (Size = 4000), @p8='?' (Size = 4000), @p9='?' (DbType = DateTime2), @p10='?' (Size = 50), @p11='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Events] ([EventId], [Artist], [CategoryId], [CreatedBy], [CreatedDate], [Date], [Description], [ImageUrl], [LastModifiedBy], [LastModifiedDate], [Name], [Price])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11);
+2023-03-10 17:11:56.826 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'MyTickets.Persistance.MyTicketsDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_Categories_CategoryId". The conflict occurred in database "MyEventsDB", table "dbo.Categories", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e4f47121-3484-4a8f-b12b-3757aed4015d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_Categories_CategoryId". The conflict occurred in database "MyEventsDB", table "dbo.Categories", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e4f47121-3484-4a8f-b12b-3757aed4015d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-03-10 17:11:57.074 +02:00 [ERR] HTTP POST /api/Events responded 500 in 1071.1516 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_Categories_CategoryId". The conflict occurred in database "MyEventsDB", table "dbo.Categories", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e4f47121-3484-4a8f-b12b-3757aed4015d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyTickets.Persistance.Repositories.BaseRepository`1.AddAsync(T entity) in D:\My Events\MyEvents\MyTickets.Persistance\Repositories\BaseRepository.cs:line 33
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 43
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 45
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-10 17:11:57.254 +02:00 [ERR] HTTP POST /api/Events responded 500 in 1251.1455 ms
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Events_Categories_CategoryId". The conflict occurred in database "MyEventsDB", table "dbo.Categories", column 'CategoryId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__208_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e4f47121-3484-4a8f-b12b-3757aed4015d
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at MyTickets.Persistance.Repositories.BaseRepository`1.AddAsync(T entity) in D:\My Events\MyEvents\MyTickets.Persistance\Repositories\BaseRepository.cs:line 33
+   at MyTickets.Application.Features.Events.Commands.CreateEvent.CreateEventCommandHandler.Handle(CreateEventCommand request, CancellationToken cancellationToken) in D:\My Events\MyEvents\MyTickets.Applicartion\Features\Events\Commands\CreateEvent\CreateEventCommandHandler.cs:line 43
+   at MyTickets.Api.Controllers.EventsController.Create(CreateEventCommand createEventCommand) in D:\My Events\MyEvents\MyTickets.Api\Controllers\EventsController.cs:line 45
+   at lambda_method61(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-10 17:12:24.085 +02:00 [INF] HTTP GET /api/Events responded 200 in 155.9543 ms
+2023-03-10 17:12:24.088 +02:00 [INF] HTTP GET /api/Events responded 200 in 161.4153 ms
+2023-03-10 17:12:54.899 +02:00 [INF] HTTP POST /api/Events responded 400 in 133.1855 ms
+2023-03-10 17:12:54.902 +02:00 [INF] HTTP POST /api/Events responded 400 in 135.8074 ms
+2023-03-10 17:13:14.811 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 47.4230 ms
+2023-03-10 17:13:14.813 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 50.1316 ms
+2023-03-10 17:13:34.742 +02:00 [INF] HTTP POST /api/Events responded 200 in 2195.9343 ms
+2023-03-10 17:13:34.747 +02:00 [INF] HTTP POST /api/Events responded 200 in 2200.8740 ms
+2023-03-10 17:13:43.573 +02:00 [INF] HTTP GET /api/Events responded 200 in 35.1506 ms
+2023-03-10 17:13:43.575 +02:00 [INF] HTTP GET /api/Events responded 200 in 37.9409 ms
+2023-03-10 17:16:24.156 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 17:16:24.198 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 17:16:24.209 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 17:16:24.211 +02:00 [INF] Hosting environment: Development
+2023-03-10 17:16:24.212 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 17:16:25.273 +02:00 [INF] HTTP GET / responded 404 in 0.1404 ms
+2023-03-10 17:16:25.280 +02:00 [INF] HTTP GET / responded 404 in 10.8086 ms
+2023-03-10 17:16:45.103 +02:00 [INF] HTTP POST /api/Category responded 200 in 623.1710 ms
+2023-03-10 17:16:45.105 +02:00 [INF] HTTP POST /api/Category responded 200 in 625.8965 ms
+2023-03-10 17:17:06.276 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 413.3249 ms
+2023-03-10 17:17:06.282 +02:00 [INF] HTTP GET /api/Category/all responded 200 in 420.5154 ms
+2023-03-10 18:24:47.781 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 18:24:47.991 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 18:24:47.996 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 18:24:47.998 +02:00 [INF] Hosting environment: Development
+2023-03-10 18:24:47.999 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 18:25:00.203 +02:00 [INF] HTTP GET / responded 404 in 0.0875 ms
+2023-03-10 18:25:00.223 +02:00 [INF] HTTP GET / responded 404 in 23.1045 ms
+2023-03-10 21:17:13.493 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-10 21:17:13.843 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-10 21:17:13.847 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-10 21:17:13.849 +02:00 [INF] Hosting environment: Development
+2023-03-10 21:17:13.849 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-10 21:18:02.133 +02:00 [INF] HTTP GET / responded 404 in 0.1853 ms
+2023-03-10 21:18:02.151 +02:00 [INF] HTTP GET / responded 404 in 23.1624 ms
+2023-03-10 21:18:33.762 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-03-10 21:18:33.765 +02:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2023-03-10 21:18:35.110 +02:00 [INF] HTTP GET /getpagedordersformonth responded 200 in 10909.1538 ms
+2023-03-10 21:18:35.112 +02:00 [INF] HTTP GET /getpagedordersformonth responded 200 in 10911.6356 ms

@@ -1,0 +1,326 @@
+2023-03-27 20:30:26.977 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 20:30:27.432 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 20:30:27.440 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 20:30:27.442 +02:00 [INF] Hosting environment: Development
+2023-03-27 20:30:27.444 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 20:31:01.084 +02:00 [INF] HTTP GET / responded 404 in 0.3444 ms
+2023-03-27 20:31:01.319 +02:00 [INF] HTTP GET / responded 404 in 304.2988 ms
+2023-03-27 20:31:40.093 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 435.2937 ms
+2023-03-27 20:32:36.105 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 92.1846 ms
+2023-03-27 20:33:10.996 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0559 ms
+2023-03-27 20:33:59.743 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 48676.9710 ms
+2023-03-27 20:33:59.763 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 48720.4162 ms
+2023-03-27 21:01:55.140 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:01:55.630 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:01:55.642 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:01:55.646 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:01:55.649 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:02:10.430 +02:00 [INF] HTTP GET / responded 404 in 0.1642 ms
+2023-03-27 21:02:10.471 +02:00 [INF] HTTP GET / responded 404 in 58.2962 ms
+2023-03-27 21:03:08.934 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 85.7424 ms
+2023-03-27 21:03:48.934 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 15.2958 ms
+2023-03-27 21:04:09.563 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 20546.5253 ms
+2023-03-27 21:04:09.569 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 20576.3578 ms
+2023-03-27 21:31:50.276 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:31:50.577 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:31:50.583 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:31:50.585 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:31:50.587 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:31:54.599 +02:00 [INF] HTTP GET / responded 404 in 0.2096 ms
+2023-03-27 21:31:54.611 +02:00 [INF] HTTP GET / responded 404 in 19.8349 ms
+2023-03-27 21:32:21.620 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 7.0622 ms
+2023-03-27 21:32:23.656 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 2016.2460 ms
+2023-03-27 21:32:23.668 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 2029.5435 ms
+2023-03-27 21:33:27.934 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.2130 ms
+2023-03-27 21:33:28.035 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 88.8083 ms
+2023-03-27 21:33:28.040 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 93.9957 ms
+2023-03-27 21:34:32.445 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.3047 ms
+2023-03-27 21:34:32.523 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 55.1373 ms
+2023-03-27 21:34:32.531 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 62.8029 ms
+2023-03-27 21:34:42.860 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0478 ms
+2023-03-27 21:34:52.653 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 9786.2984 ms
+2023-03-27 21:34:52.659 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 9792.7992 ms
+2023-03-27 21:35:47.159 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 2.9985 ms
+2023-03-27 21:35:47.174 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 0.6005 ms
+2023-03-27 21:35:47.181 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 8.4839 ms
+2023-03-27 21:36:26.907 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0947 ms
+2023-03-27 21:36:26.985 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 1.1482 ms
+2023-03-27 21:36:26.990 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 7.0003 ms
+2023-03-27 21:37:13.937 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.1664 ms
+2023-03-27 21:37:13.954 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 0.7969 ms
+2023-03-27 21:37:13.963 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 9.0829 ms
+2023-03-27 21:37:45.376 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.1359 ms
+2023-03-27 21:37:45.451 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 2.0362 ms
+2023-03-27 21:37:45.460 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 11.6458 ms
+2023-03-27 21:38:27.480 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 1.0488 ms
+2023-03-27 21:38:27.501 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 0.9049 ms
+2023-03-27 21:38:27.504 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 4.2480 ms
+2023-03-27 21:40:55.201 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:40:55.271 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:40:55.282 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:40:55.284 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:40:55.285 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:40:56.293 +02:00 [INF] HTTP GET / responded 404 in 0.1289 ms
+2023-03-27 21:40:56.305 +02:00 [INF] HTTP GET / responded 404 in 22.6478 ms
+2023-03-27 21:41:20.638 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 14.5470 ms
+2023-03-27 21:41:25.483 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 4823.1531 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:41:27.002 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 6343.2665 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:41:58.325 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.3182 ms
+2023-03-27 21:41:58.463 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 113.5095 ms
+2023-03-27 21:41:58.466 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 117.4959 ms
+2023-03-27 21:44:15.877 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.1100 ms
+2023-03-27 21:44:16.117 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 225.7804 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:44:16.139 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 248.0127 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:44:52.711 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0461 ms
+2023-03-27 21:44:52.842 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 114.5120 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:44:52.859 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 131.1627 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:45:36.692 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0530 ms
+2023-03-27 21:45:36.807 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 103.0992 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:45:36.820 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 116.6846 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:46:46.522 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 1.4146 ms
+2023-03-27 21:46:46.541 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 1.2055 ms
+2023-03-27 21:46:46.546 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 5.5299 ms
+2023-03-27 21:47:22.541 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.1665 ms
+2023-03-27 21:47:22.629 +02:00 [WRN] User password validation failed: PasswordRequiresNonAlphanumeric.
+2023-03-27 21:47:22.776 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 197.7928 ms
+System.Exception: System.Collections.Generic.List`1[Microsoft.AspNetCore.Identity.IdentityError]
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 97
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:47:22.790 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 212.0783 ms
+System.Exception: System.Collections.Generic.List`1[Microsoft.AspNetCore.Identity.IdentityError]
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 97
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:48:39.803 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.1232 ms
+2023-03-27 21:48:40.573 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 748.6264 ms
+2023-03-27 21:48:40.578 +02:00 [INF] HTTP POST /api/Account/register responded 200 in 753.4084 ms
+2023-03-27 21:49:03.443 +02:00 [INF] HTTP OPTIONS /api/Account/register responded 204 in 0.0702 ms
+2023-03-27 21:49:03.457 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 0.7634 ms
+2023-03-27 21:49:03.461 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 4.6538 ms
+2023-03-27 21:50:30.122 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0207 ms
+2023-03-27 21:50:30.134 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 12.1670 ms
+2023-03-27 21:50:46.319 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 2.0912 ms
+2023-03-27 21:50:46.322 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 5.2904 ms
+2023-03-27 21:51:36.785 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 138.2458 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:51:36.798 +02:00 [ERR] HTTP POST /api/Account/register responded 500 in 151.8503 ms
+System.Exception: Email m@m already exists.
+   at MyTickets.Identity.Services.AuthenticationService.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Identity\Services\AuthenticationService.cs:line 102
+   at MyTickets.Api.Controllers.AccountController.RegisterAsync(RegistrationRequest request) in D:\My Events\MyEvents\MyTickets.Api\Controllers\AccountController.cs:line 27
+   at lambda_method6(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-03-27 21:51:58.710 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 6.1343 ms
+2023-03-27 21:51:58.721 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 17.2016 ms
+2023-03-27 21:53:18.071 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:53:18.131 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:53:18.138 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:53:18.141 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:53:18.142 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:53:19.382 +02:00 [INF] HTTP GET / responded 404 in 0.1037 ms
+2023-03-27 21:53:19.392 +02:00 [INF] HTTP GET / responded 404 in 17.5711 ms
+2023-03-27 21:53:44.155 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:53:44.231 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:53:44.238 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:53:44.241 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:53:44.242 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:53:44.953 +02:00 [INF] HTTP GET / responded 404 in 0.1707 ms
+2023-03-27 21:53:44.965 +02:00 [INF] HTTP GET / responded 404 in 22.6488 ms
+2023-03-27 21:53:58.604 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 563.2543 ms
+2023-03-27 21:53:58.607 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 573.5370 ms
+2023-03-27 21:56:28.223 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:56:28.269 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:56:28.275 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:56:28.278 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:56:28.280 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:56:30.257 +02:00 [INF] HTTP GET / responded 404 in 0.2473 ms
+2023-03-27 21:56:30.276 +02:00 [INF] HTTP GET / responded 404 in 35.8916 ms
+2023-03-27 21:56:49.781 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 464.3731 ms
+2023-03-27 21:56:49.785 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 470.6041 ms
+2023-03-27 21:59:05.993 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-27 21:59:06.047 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-27 21:59:06.054 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-27 21:59:06.056 +02:00 [INF] Hosting environment: Development
+2023-03-27 21:59:06.058 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-27 21:59:09.297 +02:00 [INF] HTTP GET / responded 404 in 0.1580 ms
+2023-03-27 21:59:09.309 +02:00 [INF] HTTP GET / responded 404 in 22.7557 ms
+2023-03-27 21:59:21.848 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 468.8945 ms
+2023-03-27 21:59:21.851 +02:00 [INF] HTTP POST /api/Account/register responded 400 in 475.7036 ms

@@ -1,0 +1,9 @@
+2023-03-25 14:46:08.267 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-25 14:46:08.440 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-25 14:46:08.451 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-25 14:46:08.456 +02:00 [INF] Hosting environment: Development
+2023-03-25 14:46:08.458 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-25 14:47:17.931 +02:00 [INF] HTTP GET / responded 404 in 0.1906 ms
+2023-03-25 14:47:17.983 +02:00 [INF] HTTP GET / responded 404 in 80.1735 ms
+2023-03-25 14:47:47.141 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 0.0069 ms
+2023-03-25 14:47:47.146 +02:00 [INF] HTTP GET /favicon.ico responded 404 in 5.2010 ms

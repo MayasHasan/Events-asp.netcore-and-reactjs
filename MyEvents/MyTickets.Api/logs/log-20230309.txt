@@ -1,0 +1,19 @@
+2023-03-09 22:28:44.283 +02:00 [INF] Now listening on: https://localhost:7220
+2023-03-09 22:28:44.510 +02:00 [INF] Now listening on: http://localhost:5245
+2023-03-09 22:28:44.516 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-09 22:28:44.518 +02:00 [INF] Hosting environment: Development
+2023-03-09 22:28:44.519 +02:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-03-09 22:28:52.732 +02:00 [INF] HTTP GET / responded 404 in 0.1464 ms
+2023-03-09 22:28:52.775 +02:00 [INF] HTTP GET / responded 404 in 45.9133 ms
+2023-03-09 22:29:08.403 +02:00 [INF] HTTP GET /api/category/all responded 200 in 1457.7211 ms
+2023-03-09 22:29:08.405 +02:00 [INF] HTTP GET /api/category/all responded 200 in 1460.4638 ms
+2023-03-09 22:29:16.951 +02:00 [INF] HTTP GET /api/category/all responded 200 in 47.2436 ms
+2023-03-09 22:29:16.953 +02:00 [INF] HTTP GET /api/category/all responded 200 in 76.2220 ms
+2023-03-09 22:29:18.347 +02:00 [INF] HTTP GET /api/category/all responded 200 in 10.2808 ms
+2023-03-09 22:29:18.351 +02:00 [INF] HTTP GET /api/category/all responded 200 in 13.6670 ms
+2023-03-09 22:29:19.119 +02:00 [INF] HTTP GET /api/category/all responded 200 in 2.9577 ms
+2023-03-09 22:29:19.120 +02:00 [INF] HTTP GET /api/category/all responded 200 in 4.3711 ms
+2023-03-09 22:29:19.845 +02:00 [INF] HTTP GET /api/category/all responded 200 in 3.2505 ms
+2023-03-09 22:29:19.847 +02:00 [INF] HTTP GET /api/category/all responded 200 in 5.5995 ms
+2023-03-09 22:29:20.564 +02:00 [INF] HTTP GET /api/category/all responded 200 in 4.4753 ms
+2023-03-09 22:29:20.567 +02:00 [INF] HTTP GET /api/category/all responded 200 in 7.9134 ms

@@ -1,0 +1,375 @@
+2023-04-08 00:20:39.046 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0637 ms
+2023-04-08 00:20:40.901 +03:00 [ERR] HTTP GET /api/Category/allwithevents responded 500 in 0.3044 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.EvaluateAndApplyPolicy(HttpContext context, CorsPolicy corsPolicy)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-08 00:20:40.995 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-08 00:20:41.069 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-04-08 00:20:41.071 +03:00 [ERR] Connection id "0HMPNI9QIEFVS", Request id "0HMPNI9QIEFVS:00000003": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-04-08 00:20:46.759 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0322 ms
+2023-04-08 00:20:46.794 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0674 ms
+2023-04-08 00:20:46.883 +03:00 [ERR] HTTP GET /api/Category/allwithevents responded 500 in 0.3391 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.EvaluateAndApplyPolicy(HttpContext context, CorsPolicy corsPolicy)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-08 00:20:46.885 +03:00 [ERR] HTTP GET /api/Category/allwithevents responded 500 in 0.2378 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.EvaluateAndApplyPolicy(HttpContext context, CorsPolicy corsPolicy)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-08 00:20:47.191 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-08 00:20:47.261 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-08 00:20:47.264 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-04-08 00:20:47.269 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-04-08 00:20:47.269 +03:00 [ERR] Connection id "0HMPNI9QIEFVS", Request id "0HMPNI9QIEFVS:00000009": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-04-08 00:20:47.270 +03:00 [ERR] Connection id "0HMPNI9QIEFVS", Request id "0HMPNI9QIEFVS:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-04-08 00:21:00.064 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.0286 ms
+2023-04-08 00:21:01.834 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 1765.4814 ms
+2023-04-08 00:21:01.836 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 1767.8970 ms
+2023-04-08 00:21:01.936 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0510 ms
+2023-04-08 00:21:01.938 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0705 ms
+2023-04-08 00:21:01.985 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 17.6955 ms
+2023-04-08 00:21:01.990 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 22.3631 ms
+2023-04-08 00:21:01.991 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 3.5182 ms
+2023-04-08 00:21:01.994 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 6.6981 ms
+2023-04-08 00:21:05.127 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0394 ms
+2023-04-08 00:21:05.127 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0393 ms
+2023-04-08 00:21:05.193 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 60.3559 ms
+2023-04-08 00:21:05.197 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 64.7530 ms
+2023-04-08 00:21:05.277 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 82.0031 ms
+2023-04-08 00:21:05.279 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 84.4329 ms
+2023-04-08 00:22:00.017 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.3256 ms
+2023-04-08 00:22:00.066 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 17.7501 ms
+2023-04-08 00:22:00.073 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 24.9459 ms
+2023-04-08 00:23:36.757 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0686 ms
+2023-04-08 00:23:36.830 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 31.7835 ms
+2023-04-08 00:23:36.833 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 35.1347 ms
+2023-04-08 00:23:54.707 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.1514 ms
+2023-04-08 00:23:54.812 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 53.5361 ms
+2023-04-08 00:23:54.820 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 62.0950 ms
+2023-04-08 00:24:34.955 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.1698 ms
+2023-04-08 00:24:35.059 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 34.2451 ms
+2023-04-08 00:24:35.062 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 37.4282 ms
+2023-04-08 00:27:31.968 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0634 ms
+2023-04-08 00:27:32.044 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 24.2218 ms
+2023-04-08 00:27:32.049 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 29.0158 ms
+2023-04-08 00:27:39.942 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.2087 ms
+2023-04-08 00:27:39.982 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 7.3877 ms
+2023-04-08 00:27:39.984 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 10.1267 ms
+2023-04-08 00:27:53.861 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0417 ms
+2023-04-08 00:27:53.864 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0361 ms
+2023-04-08 00:27:53.875 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 7.3590 ms
+2023-04-08 00:27:53.879 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 10.9208 ms
+2023-04-08 00:27:54.918 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 471.6781 ms
+2023-04-08 00:27:54.930 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 483.7502 ms
+2023-04-08 00:31:34.862 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 5.5548 ms
+2023-04-08 00:31:34.880 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0648 ms
+2023-04-08 00:31:34.939 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 10.8970 ms
+2023-04-08 00:31:34.953 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 25.3156 ms
+2023-04-08 00:31:35.514 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 19.9580 ms
+2023-04-08 00:31:35.526 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 31.5787 ms
+2023-04-08 00:31:47.428 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0499 ms
+2023-04-08 00:31:47.441 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 5.9160 ms
+2023-04-08 00:31:47.445 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 9.7922 ms
+2023-04-08 00:31:52.442 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0544 ms
+2023-04-08 00:31:52.443 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0325 ms
+2023-04-08 00:31:52.454 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.9066 ms
+2023-04-08 00:31:52.457 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 8.0534 ms
+2023-04-08 00:31:53.046 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 16.6083 ms
+2023-04-08 00:31:53.059 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 29.3429 ms
+2023-04-08 00:31:53.229 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0644 ms
+2023-04-08 00:31:53.233 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0452 ms
+2023-04-08 00:31:53.245 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 7.1867 ms
+2023-04-08 00:31:53.249 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 10.6581 ms
+2023-04-08 00:31:53.829 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 16.2310 ms
+2023-04-08 00:31:53.840 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 27.6204 ms
+2023-04-08 00:36:20.135 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.1139 ms
+2023-04-08 00:36:20.135 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.1141 ms
+2023-04-08 00:36:20.196 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 29.5691 ms
+2023-04-08 00:36:20.199 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 32.8481 ms
+2023-04-08 00:36:20.742 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 9.0322 ms
+2023-04-08 00:36:20.749 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 16.4540 ms
+2023-04-08 00:36:32.869 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0558 ms
+2023-04-08 00:36:32.873 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0437 ms
+2023-04-08 00:36:32.883 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 6.4252 ms
+2023-04-08 00:36:32.886 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 9.8772 ms
+2023-04-08 00:36:33.489 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 29.4061 ms
+2023-04-08 00:36:33.501 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 41.7572 ms
+2023-04-08 00:36:47.708 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0423 ms
+2023-04-08 00:36:47.751 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 36.6168 ms
+2023-04-08 00:36:47.753 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 39.2386 ms
+2023-04-08 00:37:55.014 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 2.6551 ms
+2023-04-08 00:37:55.480 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 403.6463 ms
+2023-04-08 00:37:55.493 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 416.4028 ms
+2023-04-08 00:38:49.060 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0442 ms
+2023-04-08 00:38:49.153 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 5.9797 ms
+2023-04-08 00:38:49.156 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 9.0571 ms
+2023-04-08 00:39:10.946 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.5363 ms
+2023-04-08 00:39:10.995 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 5.0714 ms
+2023-04-08 00:39:11.000 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 9.9242 ms
+2023-04-08 00:39:28.201 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.2669 ms
+2023-04-08 00:39:28.212 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 4.6898 ms
+2023-04-08 00:39:28.224 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 16.3081 ms
+2023-04-08 00:39:33.925 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0405 ms
+2023-04-08 00:39:33.935 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 4.4454 ms
+2023-04-08 00:39:33.938 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 7.2611 ms
+2023-04-08 00:40:09.358 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0538 ms
+2023-04-08 00:40:09.395 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 6.9413 ms
+2023-04-08 00:40:09.398 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 9.9375 ms
+2023-04-08 00:40:43.139 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.6288 ms
+2023-04-08 00:40:43.178 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 5.2471 ms
+2023-04-08 00:40:43.180 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 7.6071 ms
+2023-04-08 00:40:51.954 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0734 ms
+2023-04-08 00:40:51.976 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 7.9514 ms
+2023-04-08 00:40:52.012 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 43.8742 ms
+2023-04-08 00:40:53.951 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 5.2472 ms
+2023-04-08 00:40:53.954 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 8.0407 ms
+2023-04-08 00:42:16.601 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.1363 ms
+2023-04-08 00:42:16.657 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 36.3204 ms
+2023-04-08 00:42:16.664 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 44.0798 ms
+2023-04-08 00:42:38.695 +03:00 [INF] HTTP OPTIONS /api/Category/allwithevents responded 204 in 0.0510 ms
+2023-04-08 00:42:38.816 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 6.2747 ms
+2023-04-08 00:42:38.826 +03:00 [INF] HTTP GET /api/Category/allwithevents responded 200 in 16.1864 ms
+2023-04-08 22:54:59.464 +03:00 [INF] Now listening on: https://localhost:7220
+2023-04-08 22:54:59.697 +03:00 [INF] Now listening on: http://localhost:5245
+2023-04-08 22:54:59.718 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-04-08 22:54:59.771 +03:00 [INF] Hosting environment: Development
+2023-04-08 22:54:59.778 +03:00 [INF] Content root path: D:\My Events\MyEvents\MyTickets.Api\
+2023-04-08 22:55:19.366 +03:00 [INF] HTTP GET / responded 404 in 0.2146 ms
+2023-04-08 22:55:19.387 +03:00 [INF] HTTP GET / responded 404 in 46.5730 ms
+2023-04-08 22:55:56.535 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 70.6855 ms
+2023-04-08 22:55:56.535 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 61.1309 ms
+2023-04-08 22:56:01.047 +03:00 [ERR] HTTP GET /api/Events/ responded 500 in 76.5322 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.EvaluateAndApplyPolicy(HttpContext context, CorsPolicy corsPolicy)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-08 22:56:01.047 +03:00 [ERR] HTTP GET /api/Events/ responded 500 in 99.1146 ms
+System.InvalidOperationException: OnStarting cannot be set because the response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ThrowResponseAlreadyStartedException(String value)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.Microsoft.AspNetCore.Http.Features.IHttpResponseFeature.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.OnStarting(Func`2 callback, Object state)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.EvaluateAndApplyPolicy(HttpContext context, CorsPolicy corsPolicy)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context, ICorsPolicyProvider corsPolicyProvider)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2023-04-08 22:56:02.119 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-08 22:56:02.119 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-08 22:56:02.400 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-04-08 22:56:02.426 +03:00 [WRN] The response has already started, the error page middleware will not be executed.
+2023-04-08 22:56:02.507 +03:00 [ERR] Connection id "0HMPODCH8JR70", Request id "0HMPODCH8JR70:00000007": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-04-08 22:56:02.507 +03:00 [ERR] Connection id "0HMPODCH8JR70", Request id "0HMPODCH8JR70:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Headers are read-only, response has already started.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpHeaders.ThrowHeadersReadOnlyException()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseHeaders.Microsoft.AspNetCore.Http.IHeaderDictionary.set_ContentType(StringValues value)
+   at Microsoft.AspNetCore.Http.DefaultHttpResponse.set_ContentType(String value)
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.ConvertException(HttpContext context, Exception exception) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 31
+   at MyTickets.Api.Middleware.ExceptionHandlerMiddleware.Invoke(HttpContext context) in D:\My Events\MyEvents\MyTickets.Api\Middleware\ExceptionHandlerMiddleware.cs:line 23
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware.InvokeAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2023-04-08 22:56:05.774 +03:00 [INF] HTTP OPTIONS /api/Account/authenticate responded 204 in 0.8748 ms
+2023-04-08 22:56:25.662 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 19826.0798 ms
+2023-04-08 22:56:25.666 +03:00 [INF] HTTP POST /api/Account/authenticate responded 200 in 19830.5769 ms
+2023-04-08 22:57:30.086 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.1156 ms
+2023-04-08 22:57:30.093 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 7.6238 ms
+2023-04-08 22:57:31.384 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 1158.9363 ms
+2023-04-08 22:57:31.389 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 1206.8989 ms
+2023-04-08 22:57:31.404 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 15.5679 ms
+2023-04-08 22:57:31.406 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 18.5384 ms
+2023-04-08 23:07:53.742 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.6693 ms
+2023-04-08 23:07:54.266 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 494.5643 ms
+2023-04-08 23:07:54.302 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 532.2854 ms
+2023-04-08 23:08:03.418 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0335 ms
+2023-04-08 23:08:03.429 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.2287 ms
+2023-04-08 23:08:03.431 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 6.5090 ms
+2023-04-08 23:12:08.254 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0672 ms
+2023-04-08 23:12:08.277 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.4980 ms
+2023-04-08 23:12:08.280 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 7.6061 ms
+2023-04-08 23:17:24.068 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0917 ms
+2023-04-08 23:17:24.072 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0611 ms
+2023-04-08 23:17:24.124 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 5.3312 ms
+2023-04-08 23:17:24.128 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 9.1348 ms
+2023-04-08 23:17:24.129 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 3.8257 ms
+2023-04-08 23:17:24.133 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 7.4171 ms
+2023-04-08 23:23:32.431 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0782 ms
+2023-04-08 23:23:32.752 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 303.6943 ms
+2023-04-08 23:23:32.765 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 317.0181 ms
+2023-04-08 23:23:32.774 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 9.8754 ms
+2023-04-08 23:23:32.784 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 19.7330 ms
+2023-04-08 23:23:44.420 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0418 ms
+2023-04-08 23:23:44.422 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0397 ms
+2023-04-08 23:23:44.432 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.6797 ms
+2023-04-08 23:23:44.440 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 12.7853 ms
+2023-04-08 23:23:44.448 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 7.9537 ms
+2023-04-08 23:23:44.451 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 14.7548 ms
+2023-04-08 23:23:44.480 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.5277 ms
+2023-04-08 23:23:44.484 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 8.0833 ms
+2023-04-08 23:23:44.486 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.4053 ms
+2023-04-08 23:23:44.490 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 8.0466 ms
+2023-04-08 23:24:47.429 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.1600 ms
+2023-04-08 23:24:47.444 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.1106 ms
+2023-04-08 23:24:47.455 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 5.2952 ms
+2023-04-08 23:24:47.469 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 18.8833 ms
+2023-04-08 23:24:47.481 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 14.2445 ms
+2023-04-08 23:24:47.487 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 19.8450 ms
+2023-04-08 23:25:40.475 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.1532 ms
+2023-04-08 23:25:40.496 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 7.7086 ms
+2023-04-08 23:25:40.500 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 11.0883 ms
+2023-04-08 23:25:40.934 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 15.3597 ms
+2023-04-08 23:25:40.946 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 27.5879 ms
+2023-04-08 23:26:46.352 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0473 ms
+2023-04-08 23:26:46.383 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.5599 ms
+2023-04-08 23:26:46.386 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 7.7076 ms
+2023-04-08 23:26:47.162 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.8474 ms
+2023-04-08 23:26:47.166 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 9.1895 ms
+2023-04-08 23:26:51.193 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 8.7012 ms
+2023-04-08 23:26:51.198 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 13.8510 ms
+2023-04-08 23:26:51.200 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 4.0495 ms
+2023-04-08 23:26:51.206 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 9.9068 ms
+2023-04-08 23:35:21.601 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0508 ms
+2023-04-08 23:35:21.613 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0620 ms
+2023-04-08 23:35:21.961 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 326.6178 ms
+2023-04-08 23:35:21.973 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 340.0261 ms
+2023-04-08 23:35:21.986 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 16.7471 ms
+2023-04-08 23:35:22.002 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 33.5023 ms
+2023-04-08 23:36:22.697 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0530 ms
+2023-04-08 23:36:22.718 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 0.0769 ms
+2023-04-08 23:36:22.741 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 6.0712 ms
+2023-04-08 23:36:22.782 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 47.6865 ms
+2023-04-08 23:36:22.786 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 30.1226 ms
+2023-04-08 23:36:22.790 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 33.9918 ms
+2023-04-08 23:49:25.652 +03:00 [INF] HTTP OPTIONS /api/Events/ responded 204 in 3.6767 ms
+2023-04-08 23:49:26.176 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 499.0740 ms
+2023-04-08 23:49:26.198 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 521.5872 ms
+2023-04-08 23:49:26.441 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 33.2140 ms
+2023-04-08 23:49:26.444 +03:00 [INF] HTTP GET /api/Events/ responded 200 in 36.2427 ms
